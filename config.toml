@@ -1,0 +1,15 @@
+# Application
+[app]
+protocol="http"
+host="127.0.0.1"
+port=":80"
+
+# Storage
+[storage]
+path="./cache"
+metadataDuration="24h"
+
+# Uplink
+[uplinks]
+[uplinks.npm]
+url="https://registry.npmjs.org/"
